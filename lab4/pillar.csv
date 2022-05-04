@@ -1,0 +1,3 @@
+id,role,secret
+lab0-minion1,web,IAmAWebserver
+lab0-minion2,lb,IAmALoadBalancer
