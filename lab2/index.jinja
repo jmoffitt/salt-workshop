@@ -1,0 +1,10 @@
+{% set id = salt.grains.get('id') %}
+<html>
+<head>
+<title>Salt Lab Nginx</title>
+</head>
+
+<body>
+<p>Hello from {{ id }}!</p>
+</body>
+</html>
